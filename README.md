@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# Suhas A Sakri - Interactive Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A high-performance, neon-cyberpunk styled developer portfolio combining modern software engineering with an immersive gaming aesthetic.
 
-Currently, two official plugins are available:
+🌍 **Live Demo:** [suhas-portfolio-flax.vercel.app](https://suhas-portfolio-flax.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚡ Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Welcome to my digital repository! I'm **Suhas A Sakri**, an enthusiastic Computer Science Engineer specializing in full-stack web applications and machine learning architectures. This portfolio was built to be highly interactive, fast, and visually striking, mimicking modern gaming interfaces through deep neon colors, advanced glassmorphism, and beautiful micro-animations.
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project leverages modern frontend capabilities:
+- **Framework:** React.js powered by Vite (for blazing fast Hot Module Replacement).
+- **Styling:** Tailwind CSS v3 (custom Neon / Cyberpunk configurations).
+- **Animations:** Framer Motion (Scroll reveals, animated layout transitions).
+- **Typography & Icons:** React Icons / Lucide React.
+- **Deployment:** Vercel CI/CD.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Key Features
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Dynamic Hero Interface:** Integrated typing simulations and animated gradient headers.
+- **Parallax Project Modals:** Custom interactive layouts showcasing Full-stack (PHP, MySQL, React) & ML capabilities (scikit-learn, Python).
+- **Skill Matrix Meters:** Custom animated UI progress bars mapping my technical arsenal upon viewport entry.
+- **Responsive Architecture:** Scales flawlessly from mobile operating systems up to ultrawide desktop monitors seamlessly.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 💻 Running Locally
+
+If you'd like to inspect my code and test this layout on your own machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SuhasSakri/my-portfolio.git
+   cd my-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **System Online**
+   Navigate to `http://localhost:5173/` inside your favorite browser!
+
+---
+
+## 📬 Initialize Connection
+
+Feel free to connect or drop an inquiry if you're looking for an engineer to collaborate with, or just want to discuss software systems!
+
+- **Email:** [suhassakri2@gmail.com](mailto:suhassakri2@gmail.com)
+- **LinkedIn:** [Suhas-Sakri](https://www.linkedin.com/in/suhas-sakri-b72565397)
+- **GitHub:** [SuhasSakri](https://github.com/SuhasSakri)
