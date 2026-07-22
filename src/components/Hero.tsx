@@ -78,7 +78,7 @@ $ systemctl status ai-services
           {lineIdx + 1}
         </span>
         <span className="table-cell whitespace-pre">
-          {line.split(/(".*?"|interface|const|string|number|boolean|let|\$|\b\d+(\.\d+)?\b)/g).map((part, pIdx) => {
+          {line.split(/(".*?"|interface|const|string|number|boolean|let|\$|\b\d+(?:\.\d+)?\b)/g).map((part, pIdx) => {
             if (!part) return null;
             if (part.startsWith('"') && part.endsWith('"')) {
               return <span key={pIdx} className="text-amber-300">{part}</span>;
