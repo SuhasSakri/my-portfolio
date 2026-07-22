@@ -4,13 +4,15 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
+import BackgroundAnimation from './components/BackgroundAnimation';
 
 function App() {
   return (
-    <div className="bg-neon-dark min-h-screen selection:bg-neon-blue/30 selection:text-neon-cyan text-slate-300 font-sans antialiased">
-      {/* Global Particle overlay (Optional subtle background styling) */}
-      <div className="fixed inset-0 pointer-events-none z-[-1] bg-[radial-gradient(ellipse_100%_100%_at_50%_-20%,rgba(0,240,255,0.05),rgba(10,10,10,1))]"></div>
+    <div className="bg-neon-dark min-h-screen selection:bg-neon-blue/30 selection:text-neon-cyan text-slate-300 font-sans antialiased relative">
+      {/* Animated Dark Theme Background */}
+      <BackgroundAnimation />
       
       <Navbar />
       
@@ -20,6 +22,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
+        <Resume />
         <Contact />
       </main>
 

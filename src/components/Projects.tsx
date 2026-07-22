@@ -6,23 +6,33 @@ import { FaGithub } from 'react-icons/fa';
 const projects = [
   {
     id: 1,
-    title: "Laptop Price Predictor & Recommender",
-    category: "Machine Learning / Fullstack",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop",
-    tech: ["Python", "Flask", "Streamlit", "scikit-learn", "JavaScript"],
-    desc: "Full-stack ML web application for laptop price prediction and budget-based recommendations. Trained a Random Forest Regressor on 1000+ laptop records. Built a Flask backend with API endpoints and developed a responsive frontend deployed on Render.",
-    github: "#",
-    demo: "#"
+    title: "Accentrix – AI Pronunciation Coach",
+    category: "AI & Fullstack Microservices",
+    image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=1000&auto=format&fit=crop",
+    tech: ["React.js", "Node.js", "FastAPI", "MongoDB", "OpenAI Whisper"],
+    desc: "Full-stack AI pronunciation platform. Integrated OpenAI Whisper for real-time speech analysis, multilingual pronunciation feedback, and progress tracking. Implemented JWT authentication, browser audio processing, and scalable microservice architecture.",
+    github: "https://github.com/SuhasSakri",
+    demo: "https://suhas-portfolio-flax.vercel.app"
   },
   {
     id: 2,
-    title: "GrowRight - Kids Health Platform",
-    category: "Fullstack Web",
+    title: "GrowRight – AI Health & Nutrition Platform",
+    category: "Fullstack AI Web App",
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop",
     tech: ["PHP", "MySQL", "Groq AI API", "JavaScript", "Bootstrap"],
-    desc: "Full-stack web application for children's fitness and nutrition management. Integrated Groq AI API (Llama 3.3-70B) for real-time health assistance. Features region-based nutrition recommendations, gamification, and age-specific fitness programs with comprehensive admin oversight.",
-    github: "#",
-    demo: "#"
+    desc: "AI-powered healthcare platform featuring personalized nutrition recommendations, gamification, and an admin dashboard. Integrated Groq AI API, secure session management, and SQL injection prevention.",
+    github: "https://github.com/SuhasSakri",
+    demo: "https://suhas-portfolio-flax.vercel.app"
+  },
+  {
+    id: 3,
+    title: "Laptop Price Predictor & Recommender",
+    category: "Machine Learning & Flask API",
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop",
+    tech: ["Python", "Flask", "Streamlit", "scikit-learn", "JavaScript"],
+    desc: "Trained a Random Forest Regressor model on 1,000+ laptop records for accurate price prediction. Developed Flask APIs, recommendation features, responsive frontend, and deployed the application.",
+    github: "https://github.com/SuhasSakri",
+    demo: "https://suhas-portfolio-flax.vercel.app"
   }
 ];
 
